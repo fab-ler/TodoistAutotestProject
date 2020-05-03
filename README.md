@@ -4,7 +4,6 @@ Check List
 
 https://todoist.com/ 
 
-- signup [?]
 - login
 - create new task
 - edit existing task
