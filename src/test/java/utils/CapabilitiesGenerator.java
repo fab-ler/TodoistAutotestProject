@@ -9,9 +9,9 @@ public class CapabilitiesGenerator {
         String os = System.getProperty("os.name").toLowerCase();
         System.out.println(("Operational system: " + os + "; Driver path: " + driverPath));
         if (os.contains("win")) {
-            System.setProperty("webdriver.chrome.driver", driverPath + "/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", driverPath + "/win/chromedriver.exe");
         } else if (os.contains("mac")) {
-            System.setProperty("webdriver.chrome.driver", driverPath + "/chromedriver");
+            System.setProperty("webdriver.chrome.driver", driverPath + "/mac/chromedriver");
         } else {
             System.setProperty("webdriver.chrome.driver", driverPath + "/linux/chromedriver");
         }

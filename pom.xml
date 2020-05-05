@@ -14,7 +14,6 @@
         <allure-maven.version>2.10.0</allure-maven.version>
         <allure-testng.version>2.10.0</allure-testng.version>
         <selenium.version>3.141.59</selenium.version>
-        <selenide.version>5.11.1</selenide.version>
         <testng.version>7.0.0</testng.version>
         <aspectjweaver.version>1.9.1</aspectjweaver.version>
         <log4j-core.version>2.12.1</log4j-core.version>
@@ -75,14 +74,6 @@
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
             <scope>test</scope>>
-        </dependency>
-
-        <!-- selenide lib-->
-        <dependency>
-            <groupId>com.codeborne</groupId>
-            <artifactId>selenide</artifactId>
-            <version>${selenide.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- logging-->
