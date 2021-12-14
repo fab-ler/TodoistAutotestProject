@@ -17,7 +17,7 @@
         <selenide.version>5.11.1</selenide.version>
         <testng.version>7.0.0</testng.version>
         <aspectjweaver.version>1.9.1</aspectjweaver.version>
-        <log4j-core.version>2.12.1</log4j-core.version>
+        <log4j-core.version>2.16.0</log4j-core.version>
         <lambok.version>1.9.1</lambok.version>
 
     </properties>
